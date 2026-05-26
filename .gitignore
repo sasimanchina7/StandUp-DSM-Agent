@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+package/
+.venv/
+venv/
+
+# Deployment artefacts
+personal-standup-bot.zip
+.env
+
+# Terraform state
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/terraform.tfvars
+
+# IDE
+.idea/
+.vscode/
+*.swp

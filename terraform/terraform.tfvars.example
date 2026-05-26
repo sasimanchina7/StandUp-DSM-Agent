@@ -1,0 +1,11 @@
+# terraform/terraform.tfvars.example
+# Copy this file to terraform.tfvars and fill in your values.
+
+aws_region        = "us-east-1"
+environment       = "dev"
+sprint_id         = "SPRINT-14"
+bedrock_model_id  = "anthropic.claude-3-5-sonnet-20241022-v2:0"
+bedrock_memory_id = ""          # fill in after running: aws bedrock create-memory ...
+deploy_lambda     = false       # set true to also deploy Lambda for smoke testing
+
+team_members = ["Mahsa", "Sasi", "Sameer", "Ravi", "Sumanth", "Vidhi"]
